@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      .parallax {
+    background-image: url("d.jpg");
+    height: 1500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  @media only screen and (max-device-width: 720px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+    </style>
+  </head>
+  <body>
+    <div class="parallax"></div>
+  </body>
+</html>
